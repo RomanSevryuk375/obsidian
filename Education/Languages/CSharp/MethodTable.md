@@ -1,7 +1,10 @@
 ---
 aliases:
 tags:
-date: "2026-03-10 10:34"
+  - C_sharp
+  - dotnet
+  - review
+date: 2026-03-10 10:34
 status:
 ---
 ### Суть (The "What")
