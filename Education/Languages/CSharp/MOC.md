@@ -5,19 +5,22 @@ aliases:
 tags:
   - C_sharp
   - dotnet
-  - "#review"
 date: 2026-03-04 18:07
 status:
 ---
  - [[Введение в Csharp]]  ❎
 	- [[CLR]]
+		- [[JIT]]
+		- [[AOT]]
+		- VES
+		- VSD
+		- Метаданные
 		- [[managed code]]
+			- Garbage Collector
+				- Roots
 		- [[unmanaged code]]
 			- [[IDisposable]]
 			- [[Finalizers]]
-		- Interface Dispatch Table
-		- [[MethodTable]]
-		- [[VMT]]
 	- [[Мультипарадигменность]] ❎
 	- [[Литералы]] ❎
  - [[Типы данных]]
@@ -95,6 +98,7 @@ status:
 	 - CancellationToken
  - [[Классы и объекты]] ❎
 	- [[Конструкторы]] ❎
+		- [[Primary Constructors]]
 	- [[Инициализаторы]] ❎
 	- [[Модификаторы доступа]] ❎
 	- [[Свойства]] ❎
@@ -117,9 +121,18 @@ status:
  - [[Обработка исключений]]❎
 	 - [[throw]]❎
 	 - [[finally]]❎
- - Организация памяти 
+- [[Рефлексия]]
+- Организация памяти 
 	 - Стэк
-	 - Куча
+	 - [[Куча]]
+		- SOH
+		- LOH
+		- POH
+		- FOH
+		- Managed Heap
+		- Interface Dispatch Table
+		- [[MethodTable]]
+		- [[VMT]]
 	 -  оператор fixed 
 - Оператор using ❎
 - Анонимные типы ❎
