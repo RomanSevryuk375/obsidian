@@ -7,8 +7,8 @@ tags:
   - review
 date: 2026-03-12 16:09
 status:
-sr-due: 2026-03-29
-sr-interval: 4
+sr-due: 2026-04-12
+sr-interval: 13
 sr-ease: 270
 ---
 ### Суть (The "What")

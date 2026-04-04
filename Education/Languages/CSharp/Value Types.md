@@ -6,8 +6,8 @@ tags:
   - review
 date: 2026-03-05 16:49
 status:
-sr-due: 2026-03-29
-sr-interval: 4
+sr-due: 2026-04-11
+sr-interval: 12
 sr-ease: 272
 ---
 # Значимые типы (Value Types)
@@ -49,7 +49,6 @@ sr-ease: 272
 ```csharp
 using System;
 
-// 1. Определение структуры с использованием Primary Constructor (C# 12)
 public readonly struct Vector3(double x, double y, double z)
 {
     public double X { get; init; } = x;

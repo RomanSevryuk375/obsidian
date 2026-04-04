@@ -16,3 +16,6 @@ status:
 	- Options Pattern
 - Filters and Attributes
 - Middlewares
+- 
+- global.json
+- Directory.Build.props 
