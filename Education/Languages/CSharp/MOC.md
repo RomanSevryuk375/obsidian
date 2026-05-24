@@ -25,18 +25,18 @@ status:
 	- [[Литералы]] ❎
  - [[Типы данных]]
 	 - [[Value Types]]
-		- [[Boxing]]
-		- [[Unboxing]]
+		- [[Boxing Unboxing]]
 	 - [[Reference Types]]
 		 - [[String]]
 			 - [[StringBuilder]]
 			 - [[Внутреннее устройство]]
+	 - [[Nullable-types]]
+	 - [[Generics]]
 	 - [[Неявная типизация]]
 		 - [[Анонимные типы]]
-	 - Преобразования базовых типов данных
-	 - Upcasting
-	 - Downcasting
- - [[Generics]]
+	- [[Преобразования базовых типов данных]]
+		 - [[Upcasting]]
+		 - [[Downcasting]]
  - [[Dynamic Language Runtime]]
  - [[Коллекции]] 
 	 - [[IEnumerable]]
@@ -69,6 +69,7 @@ status:
  * [[События]]❎
  * [[Лямбда-выражения]]❎
 	 * [[Захватывание внешних переменных ]] 
+	 * Статические лямбды
  - [[ООП]] ❎
 	 - [[Полиморфизм]]❎
 		 - [[Статический полиморфизм]]❎
@@ -133,6 +134,7 @@ status:
 		- Managed Heap
 		- Interface Dispatch Table
 		- [[MethodTable]]
+			- [[Interface Map]]
 		- [[VMT]]
 	 -  оператор fixed 
 - Оператор using ❎
