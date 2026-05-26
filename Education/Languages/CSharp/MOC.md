@@ -37,11 +37,15 @@ status:
 	- [[Преобразования базовых типов данных]]
 		 - [[Upcasting]]
 		 - [[Downcasting]]
+	 - [[Делегаты]] ❎
+		 - [[Multicast-делегаты]] ❎
+		 * Action<>❎
+		 * Func<>❎
+		 * Predicate<>❎
+	 * [[Анонимные типы]]
  - [[Dynamic Language Runtime]]
  - [[Коллекции]] 
 	 - [[IEnumerable]]
-		 - Перечисление
-		 - Итераторы
 		 - [[yield return]] 
 	 - [[Интерфейс ICollection]] 
 	 - [[Интерфейс IList]]
@@ -49,23 +53,23 @@ status:
 	 - [[Immutable collections]]
 	 - [[Frozen Collections]]
 	 - [[ReadOnlyCollection]]
-	 - Списки, очереди, стеки и наборы
-		 -  List
-			 - [[ArrayList]]
-			 - LinkedList
-		 - Queue
-		 - Stack
-		 - HashSet
-		 - [[Dictionary]]
-		 - [[Lookup]]
-		 - Span
-		 - ObservableCollection
 	 - [[Потокобезопасные коллекции]] 
- - [[Делегаты]] ❎
-	 - [[Multicast-делегаты]] ❎
-	 * Action<>❎
-	 * Func<>❎
-	 * Predicate<>❎
+		 - BlockingCollection
+		 - ConcurrentBag
+	 - [[List]]
+		 - [[ArrayList]]
+		 - [[LinkedList]]
+	 - [[Queue]]
+		 - ConcurrentQueue
+	 - [[Stack]]
+		 - ConcurrentStack
+	 - [[HashSet]]
+	 - [[Dictionary]]
+		 - ConcurrentDictionary
+	 - [[Lookup]]
+	 - [[Span и ReadOnlySpan]]
+	 - [[ObservableCollection]]
+	 - Memory
  * [[События]]❎
  * [[Лямбда-выражения]]❎
 	 * [[Захватывание внешних переменных ]] 
