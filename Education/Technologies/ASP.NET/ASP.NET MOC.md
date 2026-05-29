@@ -9,13 +9,15 @@ status:
 ---
 
 - [[Введение в ASP.NET]]
-	- Dependency Injection
+	- [[Dependency Injection]]
+		- [[Inversion of Control]]
+		- [[Service Lifetimes]]
 	- Kestrel
 	- Routing
 - [[App Settings and Configurations]]
 	- Options Pattern
-- Filters and Attributes
-- Middlewares
-- 
+- [[Filters and Attributes]]
+- [[Middleware]]
+- CORS
 - global.json
 - Directory.Build.props 

@@ -54,18 +54,18 @@ status:
 	 - [[Frozen Collections]]
 	 - [[ReadOnlyCollection]]
 	 - [[Потокобезопасные коллекции]] 
-		 - BlockingCollection
-		 - ConcurrentBag
+		 - [[BlockingCollection]]
+		 - [[Concurrent Bag]]
 	 - [[List]]
 		 - [[ArrayList]]
 		 - [[LinkedList]]
 	 - [[Queue]]
-		 - ConcurrentQueue
+		 - [[ConcurrentQueue]]
 	 - [[Stack]]
-		 - ConcurrentStack
+		 - [[ConcurrentStack]]
 	 - [[HashSet]]
 	 - [[Dictionary]]
-		 - ConcurrentDictionary
+		 - [[ConcurrentDictionary]]
 	 - [[Lookup]]
 	 - [[Span и ReadOnlySpan]]
 	 - [[ObservableCollection]]
