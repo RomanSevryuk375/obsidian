@@ -125,21 +125,24 @@ status:
 	 - [[ref-структуры]]
 	 - Реализация интерфейсов в ref-структурах
  - [[Обработка исключений]]❎
+	 - Оператор using ❎
 	 - [[throw]]❎
 	 - [[finally]]❎
 - [[Рефлексия]]
-- Организация памяти 
-	 - Стэк
-	 - [[Куча]]
-		- SOH
-		- LOH
-		- POH
-		- FOH
-		- Managed Heap
-		- Interface Dispatch Table
-		- [[MethodTable]]
-			- [[Interface Map]]
+- [[Организация памяти]] 
+	 - [[Стек]]
+		 - [[Stack frame]] 
+	 - Куча
+		- [[Managed Heap]]
+			- SOH
+			- LOH
+			- POH
+			- FOH
+			- Interface Dispatch Table
+			- [[MethodTable]]
+				- [[Interface Map]]
+		- [[Metadata Heap]] 
 		- [[VMT]]
-	 -  оператор fixed 
-- Оператор using ❎
+	 - оператор fixed 
+	 - Unmanaged Memory
 - Анонимные типы ❎
