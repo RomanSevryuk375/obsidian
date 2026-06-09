@@ -93,7 +93,7 @@ public class UserOnboardingService(IUserRepository userRepo)
 
 1.  **Тестируемость:** Нужно написать Unit-тесты для сервиса, подменив реальную БД на заглушку (Mock).
 2.  **Инкапсуляция запросов:** Логика выборки (`Where`, `Include`) сложная и повторяется в разных местах.
-3.  **[[DDD]]:** Работа с **Aggregate Roots**. Репозиторий загружает и сохраняет агрегат целиком.
+3.  **[[DDD (Domain-Driven Design)]]:** Работа с **Aggregate Roots**. Репозиторий загружает и сохраняет агрегат целиком.
 
 ### 🛑 Anti-patterns
 

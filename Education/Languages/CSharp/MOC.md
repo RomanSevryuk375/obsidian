@@ -17,7 +17,7 @@ status:
 		- Метаданные
 		- [[managed code]]
 			- Garbage Collector
-				- Roots
+				- GC Roots
 		- [[unmanaged code]]
 			- [[IDisposable]]
 			- [[Finalizers]]
