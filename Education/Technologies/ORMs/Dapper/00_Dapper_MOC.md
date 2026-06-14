@@ -1,0 +1,41 @@
+- [[Dapper]] ❎
+    - [[Micro-ORM Philosophy vs Entity Framework]] ❎
+    - [[IDbConnection Extensions & Core API]] ❎
+        - [[Dapper Query Methods (Query, QueryFirst, QuerySingle)]]
+        - [[Dapper Execute Methods (Execute, ExecuteScalar)]]
+        - [[Parameter Mapping (Anonymous, DynamicParameters)]]
+    - [[Advanced Mapping Techniques]]
+        - [[Multi-Mapping (SplitOn)]] ❎
+        - [[Multiple Resultsets (QueryMultiple)]]
+        - [[One-to-Many & One-to-One Relationships]]
+        - [[Mapping to Records & Immutable Types]]
+        - [[Custom Type Handlers (SqlMapper.TypeHandler)]] ❎
+    - [[Performance & Internals]] ❎
+        - [[IL Generation & Reflection.Emit in Dapper]]
+        - [[CommandDefinition & Performance Tuning]]
+        - [[Buffered vs Unbuffered Queries]]
+        - [[Dapper Result Caching Mechanism]]
+    - [[Architecture & Design Patterns]]
+        - [[Repository Pattern with Dapper]] ❎
+        - [[Unit of Work & IDbTransaction Management]] ❎
+        - [[Handling SQL Injection & Security]] ❎
+        - [[Database Migrations Integration (FluentMigrator, DbUp)]]
+    - [[Async & Modern .NET Features]]
+        - [[Asynchronous Programming (Task-based API)]] ❎
+        - [[CancellationToken Support in Dapper]]
+        - [[IAsyncEnumerable & Streaming Results]]
+        - [[ValueTask Optimizations]]
+    - [[Dapper Ecosystem & Extensions]]
+        - [[Dapper.Contrib (CRUD Helpers)]]
+        - [[Dapper.SqlBuilder (Dynamic SQL)]]
+        - [[Dapper.FluentMap]]
+        - [[Handling Table-Valued Parameters (TVP)]]
+    - [[Database Specific Implementations]]
+        - [[PostgreSQL (Npgsql) + Dapper]]
+        - [[SQL Server (SqlClient) + Dapper]]
+        - [[SQLite with Dapper for Testing]]
+        - [[JSON Support & Mapping (JSONB in Postgres)]] ❎
+    - [[Monitoring & Diagnostics]]
+        - [[Profiling Dapper (MiniProfiler)]]
+        - [[Logging SQL Commands (Interceptors)]]
+        - [[OpenTelemetry Integration]]

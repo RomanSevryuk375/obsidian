@@ -1,0 +1,43 @@
+- [[DDD (Domain-Driven Design)]] ❎
+    - [[Strategic Design]] ❎
+        - [[Ubiquitous Language]] ❎
+        - [[Bounded Context]] ❎
+        - [[Context Mapping]]
+        - [[Subdomains (Core, Supporting, Generic)]]
+        - [[Bounded Context Canvas]]
+    - [[Tactical Design (Building Blocks)]] ❎
+        - [[DDD Entities]] ❎
+        - [[Value Objects]] ❎
+        - [[Aggregates]] & [[Aggregate Roots]] ❎
+            - [[Aggregate Consistency Boundaries]]
+            - [[Invariants & Business Rules]]
+        - [[Domain Services]]
+        - [[Domain Events]] ❎
+            - [[MediatR MOC]]
+            - [[Internal vs External Events]]
+        - [[Factories in DDD]]
+    - [[Architecture & Patterns]] ❎
+        - [[Clean Architecture & Onion Architecture]] ❎
+        - [[Hexagonal Architecture (Ports and Adapters)]]
+        - [[CQRS]] ❎
+        - [[Event Sourcing Patterns]]
+        - [[Specification Pattern]]
+    - [[Implementation in .NET 8/10]]
+        - [[Strongly-typed IDs (Vogen, Generic Math)]] ❎
+        - [[EF Core Mapping for DDD (Owned Types, Backing Fields)]] ❎
+        - [[Persistence Ignorance vs Pragmatism]]
+        - [[Validation (FluentValidation vs Domain Guards)]]
+        - [[Functional DDD (Result Pattern, Railway Oriented Programming)]]
+    - [[Distributed Systems & DDD]]
+        - [[Outbox Pattern for Domain Events]] ❎
+        - [[Sagas & Process Managers]]
+        - [[Anti-Corruption Layer (ACL) Implementation]] ❎
+        - [[Eventual Consistency & Transactional Messaging]]
+    - [[Modeling & Discovery]]
+        - [[Event Storming]] ❎
+        - [[Domain Storytelling]]
+        - [[Heuristics for Aggregate Design]]
+    - [[Testing Strategies]]
+        - [[Unit Testing Domain Logic (Given-When-Then)]]
+        - [[Testing Aggregates & Invariants]]
+        - [[Integration Testing with Testcontainers]]
