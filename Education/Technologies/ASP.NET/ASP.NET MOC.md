@@ -8,16 +8,61 @@ date: 2026-03-25 17:20
 status:
 ---
 
-- [[Введение в ASP.NET]]
-	- [[Dependency Injection]]
-		- [[Inversion of Control]]
-		- [[Service Lifetimes]]
-	- Kestrel
-	- Routing
-- [[App Settings and Configurations]]
-	- Options Pattern
-- [[Filters and Attributes]]
-- [[Middleware]]
-- CORS
-- global.json
-- Directory.Build.props 
+- [[Введение в ASP.NET|ASP.NET Core]] ❎
+    - [[Hosting & Application Lifecycle]] ❎
+        - [[WebApplicationBuilder & Generic Host]] ❎
+        - [[Kestrel Web Server Internals & Transports]] ❎
+        - [[IHostedService & BackgroundTasks (IHostedLifecycleService)]]
+        - [[Application Shutdown & CancellationToken ApplicationStopping]]
+    - [[Request Pipeline & Middleware]] ❎
+        - [[Middleware|Middleware Architecture & Execution Order]] ❎
+        - [[HttpContext & IFeatureCollection Internals]] ❎
+        - [[Endpoint Routing Architecture]] ❎
+        - [[Writing Custom Middleware (IMiddleware vs Convention)]]
+        - [Filters and Attributes[Filters (Authorization, Action, Exception, Result)]]
+    - [[API Development Models]]
+        - [[Minimal APIs (.NET 8/10 Features)]] ❎
+        - [[MVC & ControllerBase Architecture]]
+        - [[Model Binding & Custom Binders]]
+        - [[Endpoint Filters (IEndpointFilter) in Minimal APIs]]
+        - [[Content Negotiation & Custom Output Formatters]]
+    - [[Dependency Injection|Dependency Injection (DI)]] ❎
+        - [[Service Lifetimes|Service Lifetimes (Singleton, Scoped, Transient)]] ❎
+        - [[IServiceProvider & ServiceDescriptor Internals]]
+        - [[Captive Dependencies & Scope Validation]] ❎
+        - [[Keyed Dependency Injection (.NET 8+)]]
+        - [[FromServices vs Parameter Injection in Minimal APIs]]
+    - [[Configuration & Options]]
+        - [[IConfiguration Architecture & Providers]] ❎
+        - [[Options Pattern (IOptions, IOptionsSnapshot, IOptionsMonitor)]] ❎
+        - [[Options Validation (IValidateOptions & Source Generators)]]
+        - [[Azure App Configuration & Key Vault Integration]]
+    - [[Performance & Internals]] ❎
+        - [[System.IO.Pipelines in ASP.NET Core]] ❎
+        - [[Memory Management in Kestrel (Span, Memory, ArrayPool)]] ❎
+        - [[ObjectPool<T> for High-Performance Reusability]]
+        - [[Native AOT Compilation Support & Trim Warnings]] ❎
+        - [[Thread Pool Starvation & Async/Await Best Practices]] ❎
+        - [[Output Caching vs Response Caching (.NET 7/8+)]] ❎
+    - [[Security & Identity]] ❎
+        - [[Authentication Architecture (Schemes & Handlers)]] ❎
+        - [[JWT Bearer Authentication & Token Validation]]
+        - [[Authorization Policies, Requirements & Handlers]] ❎
+        - [[Data Protection API (DPAPI) Internals]]
+        - [[CORS (Cross-Origin Resource Sharing) Policies]]
+        - [[Rate Limiting Middleware (Concurrency, Token Bucket)]] ❎
+    - [[Architecture & Clean Code]]
+        - [[REPR Pattern (Request-Endpoint-Response) & FastEndpoints]] ❎
+        - [[Vertical Slice Architecture in ASP.NET Core]]
+        - [[Global Exception Handling (IExceptionHandler & ProblemDetails)]] ❎
+        - [[API Versioning Strategies]]
+    - [[Real-Time & RPC]]
+        - [[SignalR Architecture & Hubs]] ❎
+        - [[gRPC Services (Code-first vs Contract-first)]]
+        - [[WebSockets & Connection Management]]
+        - [[Server-Sent Events (SSE) via IAsyncEnumerable]]
+    - [[Observability & Diagnostics]]
+        - [[OpenTelemetry Integration (Metrics, Tracing, Logging)]] ❎
+        - [[Health Checks API & UI]]
+        - [[HttpLoggingMiddleware & W3C Logging]]
+        - [[System.Diagnostics.Metrics in ASP.NET Core]]

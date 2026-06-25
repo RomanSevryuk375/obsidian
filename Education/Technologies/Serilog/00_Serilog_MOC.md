@@ -1,0 +1,40 @@
+- [[Serilog]] ❎
+    - [[Structured Logging Philosophy]] ❎
+        - [[Message Templates & Semantic Logging]] ❎
+        - [[Serilog LogEvent Lifecycle]] 
+        - [[Log Levels & Dynamic Overrides]]
+    - [[Configuration & Setup (.NET 8+)]]
+        - [[HostBuilder Integration (UseSerilog)]] ❎
+        - [[Two-Stage Initialization Pattern]] ❎
+        - [[Configuration Providers (appsettings.json vs Fluent API)]]
+        - [[Serilog.Extensions.Logging (ILogger Provider)]]
+    - [[Enrichment & Context]]
+        - [[LogContext & AsyncLocal Tracking]] ❎
+        - [[Custom Enrichers (ILogEventEnricher)]]
+        - [[Global vs Scoped vs Event Properties]]
+        - [[IDiagnosticContext (Serilog.AspNetCore)]] ❎
+    - [[Destructuring & Serialization]] ❎
+        - [[Destructuring Operator (@) vs Stringification ($)]] ❎
+        - [[Custom Destructuring Policies (IDestructuringPolicy)]]
+        - [[Handling Cycles & Max Depth Limit]]
+        - [[Compact Log Event Format (CLEF)]]
+        - [[Custom Text Formatters (ITextFormatter)]]
+    - [[Sinks]]
+        - [[Console Sink & Themes]]
+        - [[File Sink & Rolling Policies]]
+        - [[Centralized Logging (Seq, Elasticsearch)]]
+        - [[OpenTelemetry (OTLP) Sink Integration]] ❎
+    - [[Performance & Internals]] ❎
+        - [[Async Sinks (Serilog.Sinks.Async) & Bounded Buffers]] ❎
+        - [[Memory Allocations in Message Templates]]
+        - [[LoggerMessage Source Generator Integration]] ❎
+        - [[High-Performance Zero-Allocation Logging]]
+        - [[Garbage Collection Impact of High-Volume Logging]]
+    - [[Architecture & Best Practices]]
+        - [[HTTP Request Logging Middleware (UseSerilogRequestLogging)]] ❎
+        - [[Correlation IDs & Distributed Tracing]] ❎
+        - [[Handling Sensitive Data & Log Masking (Enrichers/Destructuring)]] ❎
+        - [[Exception Logging & StackTrace Demystification]]
+    - [[Testing & Diagnostics]]
+        - [[Testing Serilog Configurations (Serilog.Sinks.TestCorrelator)]]
+        - [[Debugging Serilog SelfLog]]
