@@ -40,7 +40,7 @@ status:
 
 ---
 
-### Пример кода ([[MOC|C#]] 12)
+### Пример кода ([[00_MOC|C#]] 12)
 
 ```csharp
 using Microsoft.Extensions.Logging;

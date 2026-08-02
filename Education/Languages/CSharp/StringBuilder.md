@@ -37,7 +37,7 @@ sr-ease: 270
 
 ---
 
-### Пример кода ([[MOC#/MOC|C#]] 12)
+### Пример кода ([[00_MOC#/MOC|C#]] 12)
 
 ```csharp
 using System.Text;

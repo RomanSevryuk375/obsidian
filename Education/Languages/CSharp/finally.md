@@ -42,7 +42,7 @@ resource.DoWork();
 
 ---
 
-### Пример кода ([[MOC#/MOC|C#]] 12)
+### Пример кода ([[00_MOC#/MOC|C#]] 12)
 
 ```csharp
 using System;
