@@ -54,6 +54,7 @@ status:
 	 - [[Frozen Collections]]
 	 - [[ReadOnlyCollection]]
 	 - [[Потокобезопасные коллекции]] 
+		 - IAsyncEnumerable
 		 - [[BlockingCollection]]
 		 - [[Concurrent Bag]]
 	 - [[List]]
@@ -90,18 +91,19 @@ status:
 		- [[Анонимные типы]]
 		- [[Record's ]] 
  - [[Многопоточность]]
+	 - [[Task Parallel Library (TPL)]]
 	 - [[Синхронизация потоков]]
 		 - [[Spin-lock]]
 		 - [[Monitor]]
 		 - [[Mutex]]
 		 - [[AutoResetEvent]]
 		 - [[Semaphore и SemaphoreSlim]]
- - [[Асинхронность]] 
-	 - [[State Machine]]
-	 - [[Task]]
-	 - [[ValueTask]]
-	 - IAsyncEnumerable
-	 - CancellationToken
+	 - [[Асинхронность]] 
+		 - [[async-await]]
+		 - [[State Machine]]
+		 - [[Task]]
+		 - [[ValueTask]]
+		 - [[CancellationToken]]
  - [[Классы и объекты]] ❎
 	- [[Конструкторы]] ❎
 		- [[Primary Constructors]]
@@ -125,7 +127,7 @@ status:
 	 - [[ref-структуры]]
 	 - Реализация интерфейсов в ref-структурах
  - [[Обработка исключений]]❎
-	 - Оператор using ❎
+	 - [[Оператор using]] ❎
 	 - [[throw]]❎
 	 - [[finally]]❎
 - [[Рефлексия]]
