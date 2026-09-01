@@ -41,7 +41,7 @@ DIP — это концепция, а DI — это основной инстр�
 
 ---
 
-### Пример кода ([[00_MOC#/MOC|C#]] 12)
+### Пример кода ([[Education/Languages/CSharp/00_MOC#/MOC|C#]] 12)
 
 ```csharp
 using System;

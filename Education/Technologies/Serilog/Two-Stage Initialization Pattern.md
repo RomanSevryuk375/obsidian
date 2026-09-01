@@ -34,7 +34,7 @@ status:
 
 ---
 
-### Пример кода ([[00_MOC|C#]] 12)
+### Пример кода ([[Education/Languages/CSharp/00_MOC|C#]] 12)
 
 Современная реализация в `Program.cs` с использованием `Primary Constructors` и блоков `try-catch-finally`.
 

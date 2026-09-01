@@ -40,7 +40,7 @@ sr-ease: 290
 
 ---
 
-### Пример кода ([[00_MOC|C#]] 12)
+### Пример кода ([[Education/Languages/CSharp/00_MOC|C#]] 12)
 
 ```csharp
 using System;

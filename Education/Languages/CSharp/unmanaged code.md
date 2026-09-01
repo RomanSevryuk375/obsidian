@@ -39,7 +39,7 @@ status:
 
 ---
 
-### Пример кода ([[00_MOC|C#]] 12)
+### Пример кода ([[Education/Languages/CSharp/00_MOC|C#]] 12)
 
 Реализация паттерна Disposable с использованием `SafeHandle` и преимуществ C# 12.
 

@@ -41,7 +41,7 @@ MethodTable создается загрузчиком типов (ClassLoader) �
 
 ---
 
-### Пример кода ([[00_MOC#/MOC|C#]] 12)
+### Пример кода ([[Education/Languages/CSharp/00_MOC#/MOC|C#]] 12)
 
 Для демонстрации того, что разные объекты ссылаются на одну MethodTable, можно использовать `RuntimeHelpers`.
 
